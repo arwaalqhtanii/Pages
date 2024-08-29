@@ -2,12 +2,12 @@ body {
     background-color: #f0f8ff;
     font-family: Arial, sans-serif;
     color: #333;
-    text-align: center;
+    text-align: left;
     
 }
 
 h1 {
-    color: #2e8b57;
+    color: #c362c1;
 }
 
 ul {
@@ -21,6 +21,3 @@ a {
     font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
-}

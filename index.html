@@ -11,25 +11,20 @@
     <h1>Welcome to My Homepage</h1>
     <p>Use the menu to select different Stylesheets</p>
     <ul>
-        <li><a href="#" onclick="switchStylesheet(1)">styles 1</a></li>
-        <li><a href="#" onclick="switchStylesheet(2)">styles 2</a></li>
-        <li><a href="no-styles.html">No Stylesheet</a></li>
+        <li><a href="page1.html">styles 1</a></li>
+        <li><a href="page2.html">styles 2</a></li>
+        <li><a href="index.html">No Stylesheet</a></li>
     </ul>
     <h1>Same Page Different Stylesheets</h1>
     <p>This is a demonstration of how different stylesheets can change the layout of your HTML page.</p>
     
     <h2>No Styles</h2>
     <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
-    <p><a href="no-styles.html">No Stylesheet</a></p>
+    <p><a href="index.html">No Stylesheet</a></p>
     
     <h3>Side-Bar</h3>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 
-    <script>
-        function switchStylesheet(sheet) {
-            document.getElementById('style1').disabled = sheet !== 1;
-            document.getElementById('style2').disabled = sheet !== 2;
-        }
-    </script>
+   
 </body>
 </html>
